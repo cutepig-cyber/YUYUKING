@@ -36,7 +36,7 @@ plt.title('离散单位阶跃序列')
 plt.xlabel('样本序号')
 plt.ylabel('幅度')
 plt.grid(True, linestyle='--', alpha=0.5)
-plt.xticks(n)  # 明确显示所有离散点
+plt.xticks(n)  
 
 # 调整布局并显示
 plt.tight_layout()
